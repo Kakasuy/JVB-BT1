@@ -52,6 +52,8 @@ li {
 }
 
 .header .inner-menu {
+    display: inline-flex;
+    justify-content: flex-end;
     flex: 1;
     text-align: center;
 }
