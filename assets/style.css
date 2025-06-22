@@ -856,6 +856,12 @@ li {
     font-weight: 200;
 }
 
+.section-5 .inner-form input::placeholder {
+    color: #000000;
+    font-family: var(--font-two);
+    font-size: 20px;
+}
+
 .section-5 .inner-form button {
     padding: 15px 24px;
     background-color: #000000;
@@ -905,13 +911,36 @@ li {
     }
 }
 
-@media(max-width: 389.98px) {
-    .section-5 .inner-form {
-        padding: 42px 0px 38px;
+@media(max-width: 575.98px) {
+    .section-5 .inner-form .form-title {
+        font-size: 29px;
+        margin-bottom: 14px;
+    }
+
+    .section-5 .inner-form form {
+        margin-top: 33px;
+    }
+
+    .section-5 .inner-form .form-desc {
+        font-size: 16px;
+    }
+
+    .section-5 .inner-form button {
+        font-size: 16px;
+    }
+
+    .section-5 .inner-form input::placeholder {
+        font-size: 16px;
     }
 
     .section-5 .inner-form input {
-        padding: 18px 0px;
+        padding: 18px 6px;
+    }
+}
+
+@media(max-width: 389.98px) {
+    .section-5 .inner-form {
+        padding: 42px 0px 38px;
     }
 }
 
