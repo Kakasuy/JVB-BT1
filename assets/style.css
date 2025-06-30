@@ -30,7 +30,9 @@ li {
 
 /* Header */
 .header {
-    padding: 52.5px 0 40px;
+    height: 134px;
+    display: flex;
+    align-items: center;
     border-bottom: 2px solid #D6D6D6;
     z-index: 999;
 }
@@ -65,15 +67,20 @@ li {
     gap: 34px;
 }
 
+.header .inner-menu ul .active {
+    padding: 56px 0;
+    border-bottom: 2px solid #000000;
+}
+
 .header .inner-menu ul li a {
     color: var(--color-main);
     font-family: var(--font-three);
     font-weight: 600;
 }
 
-.header .inner-menu ul li:hover {
+/* .header .inner-menu ul li:hover {
     border-bottom: 2px solid #000000;
-}
+} */
 
 .header .inner-menu-mobile {
     display: none;
